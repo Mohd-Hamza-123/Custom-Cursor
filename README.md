@@ -1,1 +1,1 @@
-website url : [click](https://customcursorbyhamza.netlify.app/)
+Website url : [click](https://customcursorbyhamza.netlify.app/)
