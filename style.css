@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100dvw;
+    height: 100dvh;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+}
+
+#root h1 {
+
+    font-size: 8rem;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, yellow, orange, red);
+    user-select: none;
+    mix-blend-mode: difference;
+}
+
+#root p {
+    font-size: 2em;
+    user-select: none;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to left, yellow, orange, red);
+    font-weight: 900;
+    mix-blend-mode: difference;
+}
+#root a {
+    font-size: 2em;
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+    mix-blend-mode: difference;
+
+}
+
+.cursor{
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.1s;
+}
